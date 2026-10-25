@@ -1,0 +1,15 @@
+def konversi_menit_ke_detik(menit):
+    """
+    Mengubah satuan menit menjadi detik.
+
+    Parameter:
+        menit : jumlah waktu dalam menit.
+
+    Return:
+        Jumlah waktu dalam detik.
+    """
+    detik = menit * 60
+    return detik
+
+print(konversi_menit_ke_detik(3))
+print(konversi_menit_ke_detik.__doc__)
